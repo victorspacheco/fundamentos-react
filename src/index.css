@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    @apply text-black bg-white font-sans;
+  }
+
+  body {
+    @apply min-h-screen relative m-0;
+  }
+
+  input {
+    @apply w-full bg-slate-100 border border-slate-200 text-slate-500 py-1.5 px-3 rounded-md focus:border-sky-700 focus:outline-none focus:text-slate-700 focus:placeholder:opacity-0 placeholder:text-sm
+  }
+}
+
